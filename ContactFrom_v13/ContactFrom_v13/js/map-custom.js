@@ -15,7 +15,7 @@
                 img_pin = 'images/icons/location.png';
             }
             if (data_map_x == null || data_map_y == null) {
-                data_map_x = 12.9210179826;
+                data_map_x = 12.9210279900;
                 data_map_y = 77.4931280275;
 
             }
@@ -36,7 +36,7 @@
                     "saturation": 36
                 },
                 {
-                    "color": "#000000"
+                    "color": "#FFFFFF"
                 },
                 {
                     "lightness": 40
@@ -87,7 +87,7 @@
                     "color": "#000000"
                 },
                 {
-                    "lightness": 17
+                    "lightness": 60
                 },
                 {
                     "weight": 1.2
@@ -99,10 +99,10 @@
                 "elementType": "geometry",
                 "stylers": [
                 {
-                    "color": "#000000"
+                    "color": "#40fc01"
                 },
                 {
-                    "lightness": 20
+                    "lightness": 60
                 }
                 ]
             },
@@ -114,7 +114,7 @@
                     "color": "#000000"
                 },
                 {
-                    "lightness": 21
+                    "lightness": 40
                 }
                 ]
             },
@@ -126,7 +126,7 @@
                     "color": "#000000"
                 },
                 {
-                    "lightness": 17
+                    "lightness": 40
                 }
                 ]
             },
@@ -153,7 +153,7 @@
                     "color": "#000000"
                 },
                 {
-                    "lightness": 18
+                    "lightness": 40
                 }
                 ]
             },
@@ -165,7 +165,7 @@
                     "color": "#000000"
                 },
                 {
-                    "lightness": 16
+                    "lightness": 40
                 }
                 ]
             },
@@ -177,7 +177,7 @@
                     "color": "#000000"
                 },
                 {
-                    "lightness": 19
+                    "lightness": 40
                 }
                 ]
             },
@@ -186,7 +186,7 @@
                 "elementType": "geometry",
                 "stylers": [
                 {
-                    "color": "#000000"
+                    "color": "#281fa1"
                 },
                 {
                     "lightness": 17
