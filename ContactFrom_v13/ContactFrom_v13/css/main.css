@@ -211,6 +211,34 @@ iframe {
   padding-bottom: 64px;
 }
 
+.contact100-page-title {
+  display: block;
+  width: 100%;
+  font-family: Poppins-Bold;
+  color: #00001a;
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.Division{
+   float: left;
+    width: 45%;
+    height: 200px;
+    
+    margin-left: 10px;
+    padding-bottom: 60px;
+}
+
+.contact100-page-text {
+  display: block;
+  width: 100%;
+  font-size: 30px;
+  color: #00001a;
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 64px;
+}
+
 
 
 /*------------------------------------------------------------------
@@ -468,8 +496,8 @@ textarea.input100 {
   font-size: 16px;
   color: #fff;
 
-  position: fixed;
-  z-index: -1;
+  position: absolute;
+  z-index: +1;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -493,7 +521,7 @@ textarea.input100 {
 }
 
 .contact100-more i {
-  font-size: 20px;
+  font-size: 30px;
   margin-right: 10px;
 }
 

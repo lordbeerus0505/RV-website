@@ -195,8 +195,8 @@
             }
             ];
 
-            var latitude = 12.9210179826,
-                longitude = 77.4931280275,
+            var latitude = data_map_x,
+                longitude = data_map_y,
                 map_zoom = 14;
 
             var locations = [
