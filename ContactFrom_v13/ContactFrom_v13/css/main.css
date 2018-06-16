@@ -560,3 +560,18 @@ textarea.input100 {
     z-index: 10;
   }
 }
+
+/*For Facebook and Linkedin Ids*/
+.contact100-extra {
+  display: block;
+  width: 100%;
+  font-family: Poppins-Bold;
+  font-size: 25px;
+  color: #333333;
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 64px;
+}
+
+/*---------------------------------------------BOOTSTRAP SLIDESHOW-----------------------------------------------------------------*/
+
