@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
 	<title>Contact Us</title>
 	<meta charset="UTF-8">
+<!--=======================================MOBILE VS DESKTOP=======================================-->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" media="screen and (max-device-width: 500px)" href="css/mobile.css" />
 <!--===============================================================================================-->
 	<link rel="icon" type="image/png" href="images/icons/logo.png"/>
 <!--===============================================================================================-->
@@ -25,8 +28,8 @@
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="css/util.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" media="screen and (min-device-width:800px)"type="text/css" href="css/util.css">
+	<link rel="stylesheet" media="screen and (min-device-width:800px)"type="text/css" href="css/main.css">
 <!--===============================================================================================-->
 
 
@@ -60,7 +63,7 @@
 
 	<div style="text-align: center;padding-bottom: 250px;">
 		<h2>Contact Details:</h2>
-		<div class="Division" style="text-align: center;padding-left: 150px;padding-top: 50px;">
+		<div class="Division">
 			<h3>Coding Club President</br>Saket Ringsia</h3>
 
 		<ul>
@@ -69,7 +72,7 @@
 		</ul>
 		
 		</div>
-		<div class="Division" style="text-align: center;padding-left:60px;padding-right: 50px;padding-top: 50px;">
+		<div class="Division" >
 			<h3>Coding Club Faculty Advisor</br>Dr. B M Sagar</h3>
 
 		<ul>
@@ -93,8 +96,16 @@
 	
 
 	<div class="container-contact100">
-		<div class="contact100-map" id="google_map" data-map-x="12.9210179826" data-map-y="77.4931280275" data-pin="images/icons/map-marker.png" data-scrollwhell="0" data-draggable="1"></div>
+		
 		<!--Note the position is absolute-->
+		<script type="text/javascript">
+			if(window.innerWidth<500)
+				{document.write('<img src="./images/map_location.png">');
+				}
+
+		</script>
+
+		<div class="contact100-map" id="google_map" data-map-x="12.923595826" data-map-y="77.49808280275" data-pin="images/icons/map-marker.png" data-scrollwhell="0" data-draggable="1"></div>
 		<div class="contact100-more" style="position: relative;left: -140px;top:-50px;">
 			<i class="zmdi zmdi-phone-in-talk" ></i>
 			91 - 080-6717 8021

@@ -1,5 +1,8 @@
 
-
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
 
 
 /*//////////////////////////////////////////////////////////////////
@@ -225,8 +228,11 @@ iframe {
     width: 45%;
     height: 200px;
     
-    margin-left: 10px;
+    margin-left: 40px;
     padding-bottom: 60px;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 20px;
 }
 
 .contact100-page-text {
